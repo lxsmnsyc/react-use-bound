@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add bound.js
+
+PATH: 
+  ~/.composer/vendor/bin:/home/snd-admin/.npm-global/bin:/home/snd-admin/.cargo/bin:/home/snd-admin/.local/share/umake/bin:~/.composer/vendor/bin:/opt/GitHub Desktop:/home/snd-admin/.npm-global/bin:/home/snd-admin/.cargo/bin:/home/snd-admin/.local/share/umake/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/yarn-[version]/bin:/home/snd-admin/.npm-global/bin:/opt/yarn-[version]/bin:/home/snd-admin/.npm-global/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  11.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bound.js: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:193:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:193:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:281:20)
+      at IncomingMessage.emit (events.js:198:15)
+      at endReadableNT (_stream_readable.js:1139:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:17)
+
+npm manifest: 
+  {
+    "name": "react-use-bound",
+    "version": "0.1.0",
+    "description": "React Hooks + Bound.js",
+    "main": "index.js",
+    "repository": "https://github.com/LXSMNSYC/react-use-bound.git",
+    "author": "Alexis Munsayac <alexis.munsayac@gmail.com>",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
