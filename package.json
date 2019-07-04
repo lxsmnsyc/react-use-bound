@@ -1,0 +1,22 @@
+{
+  "name": "react-use-bound",
+  "version": "0.1.0",
+  "description": "React Hooks + Bound.js",
+  "main": "index.js",
+  "repository": "https://github.com/LXSMNSYC/react-use-bound.git",
+  "author": "Alexis Munsayac <alexis.munsayac@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {},
+  "dependencies": {
+    "@types/react": "^16.8.23",
+    "bounds.js": "^1.0.3",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "rollup": "^1.16.4",
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.5.2"
+  }
+}
